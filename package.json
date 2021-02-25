@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
+    "faker": "^5.4.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
@@ -15,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "api": "json-server --watch db.json --port 3001"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +40,9 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  },
   "author": "",
   "license": "ISC"
 }
