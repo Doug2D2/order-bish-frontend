@@ -6,7 +6,7 @@ export default function Header() {
     <div className='header'>
       <div className='inner_header'>
         <div className='logo_container'>
-          <h1>MY<span>Site</span></h1>
+          <h1>ORDER<span>bish</span></h1>
         </div>
 
         <ul className='navigation'>
